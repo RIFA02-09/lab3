@@ -1,0 +1,62 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+header h2 {
+    font-size: 2.5em;
+}
+
+/* Campus Container */
+.campus-container {
+    width: 80%;
+    max-width: 650px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.moment {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Campus Image */
+.campus-image {
+    width: 90%; /* Adjust width as needed to make the images smaller */
+    max-width: 500px; /* Set max width for larger screens */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.moment h3 {
+    color: #4a90e2;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.moment p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
